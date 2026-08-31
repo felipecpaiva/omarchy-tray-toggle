@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "tray-toggle.tray",
+  "name": "System Tray (Toggleable Auto-hide)",
+  "version": "1.0.0",
+  "author": "felipecpaiva",
+  "description": "Drop-in replacement for Omarchy's stock tray widget. Fixes the chevron reserving bar space even when there is nothing to hide, and adds an 'alwaysShow' setting so you can turn icon auto-hiding off entirely from the Super+Space menu.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Tray.qml"
+  },
+  "barWidget": {
+    "displayName": "System Tray (Toggleable Auto-hide)",
+    "description": "Status notifier items, with optional auto-hide",
+    "category": "Status",
+    "allowMultiple": false
+  }
+}
