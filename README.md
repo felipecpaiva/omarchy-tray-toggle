@@ -3,6 +3,8 @@
 A drop-in replacement for [Omarchy](https://omarchy.org/)'s stock system tray
 widget (`omarchy.tray`) that fixes one bug and adds one setting.
 
+![Tray icons with no reserved chevron space](docs/img/tray-close.png)
+
 ## The bug it fixes
 
 The stock tray widget shows a chevron ("hide/show more icons") that reserves
@@ -50,6 +52,8 @@ Open `~/.config/omarchy/extensions/omarchy-menu.jsonc` and add this entry
 
 Save the file — it hot-reloads. Then `Super+Space` → "Toggle" → "Tray
 Auto-hide" flips it, with a checkmark showing the current state.
+
+![Tray Auto-hide in the Super+Space Toggle menu](docs/img/launcher-toggle.png)
 
 If your tray widget lives in a different bar section than `right` (you
 moved it with `omarchy bar move`), change `.bar.layout.right[]` in both the
